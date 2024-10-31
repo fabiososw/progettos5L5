@@ -1,0 +1,33 @@
+body {
+  /* CAMBIA FONT */
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  padding-inline: 90px;
+  background-color: #ffc018;
+  border-bottom: 0.8px solid rgb(22, 22, 22);
+}
+nav {
+  padding-block: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.logo {
+  cursor: pointer;
+}
+ul li {
+  display: inline-flex;
+}
+li {
+  display: flex;
+  margin-inline: 5px;
+  cursor: pointer;
+}
+.special {
+  color: rgb(239, 239, 239);
+  background-color: rgb(26, 26, 26);
+  padding: 10px 13px;
+  border-radius: 1.5rem;
+}
