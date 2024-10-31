@@ -106,3 +106,12 @@ section {
   font-weight: bold;
   gap: 10px;
 }
+.articles {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.article {
+  width: 33.3%;
+  display: flex;
+}
