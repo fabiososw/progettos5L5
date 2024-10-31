@@ -125,6 +125,7 @@ section {
   font-size: 4rem;
   font-weight: bold;
   color: #0000002c;
+  cursor: pointer;
   padding-right: 15px;
 }
 .article img {
@@ -139,6 +140,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  cursor: pointer;
 }
 .riga1 {
   padding-top: 9px;
