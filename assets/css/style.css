@@ -8,7 +8,8 @@ header {
   border-bottom: 0.8px solid rgb(22, 22, 22);
 }
 nav {
-  padding-block: 30px;
+  font-size: 0.8rem;
+  padding-block: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,10 +18,10 @@ nav {
 .logo {
   cursor: pointer;
 }
-ul li {
+header ul li {
   display: inline-flex;
 }
-li {
+header li {
   display: flex;
   margin-inline: 5px;
   cursor: pointer;
@@ -30,4 +31,30 @@ li {
   background-color: rgb(26, 26, 26);
   padding: 10px 13px;
   border-radius: 1.5rem;
+}
+main {
+  padding-inline: 90px;
+  background-color: #ffc018;
+  /*   border-bottom: 0.8px solid rgb(22, 22, 22)  */
+  display: flex;
+}
+.heroText {
+  width: 40%;
+}
+.heroText * {
+  margin-block: 35px;
+}
+h1 {
+  font-size: 6rem;
+  padding-top: 60px;
+}
+.heroText h2 {
+  font-size: 2.3rem;
+}
+.heroText button {
+  color: rgb(239, 239, 239);
+  background-color: rgb(26, 26, 26);
+  padding: 15px 80px;
+  border-radius: 2rem;
+  margin-top: 25px;
 }
