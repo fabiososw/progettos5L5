@@ -3,11 +3,13 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
 header {
   padding-inline: 90px;
   background-color: #ffc018;
   border-bottom: 0.8px solid rgb(22, 22, 22);
 }
+
 nav {
   font-size: 0.8rem;
   padding-block: 15px;
@@ -16,35 +18,46 @@ nav {
   align-items: center;
   gap: 40px;
 }
+
 .logo {
   cursor: pointer;
 }
+
 header ul li {
   display: inline-flex;
 }
+
 header li {
   display: flex;
   margin-inline: 5px;
   cursor: pointer;
 }
+
 .special {
   color: rgb(239, 239, 239);
   background-color: rgb(26, 26, 26);
   padding: 10px 13px;
   border-radius: 1.5rem;
 }
-main {
+
+main.hero {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding-inline: 90px;
   background-color: #ffc018;
-  /*   border-bottom: 0.8px solid rgb(22, 22, 22)  */
-  display: flex;
 }
+
 .heroText {
   width: 40%;
+  z-index: 1;
 }
+
 .heroText * {
   margin-block: 35px;
 }
+
 h1 {
   font-family: "Spectral", serif;
   font-weight: 500;
@@ -52,9 +65,11 @@ h1 {
   font-size: 7rem;
   padding-top: 60px;
 }
+
 .heroText h2 {
   font-size: 2.3rem;
 }
+
 .heroText button {
   color: rgb(239, 239, 239);
   background-color: rgb(26, 26, 26);
@@ -62,3 +77,21 @@ h1 {
   border-radius: 2rem;
   margin-top: 25px;
 }
+
+.mS {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: fit-content;
+  background-color: #ffc018;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .mS img {
+  max-width: 100%;
+  height: auto;
+}
+ */
