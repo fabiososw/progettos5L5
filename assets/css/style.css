@@ -95,3 +95,58 @@ h1 {
   height: auto;
 }
  */
+section {
+  padding-inline: 90px;
+}
+.trending {
+  align-items: center;
+  padding-top: 50px;
+  font-weight: bold;
+  gap: 10px;
+}
+.trendingText {
+  display: flex;
+  align-items: center;
+}
+
+.articles {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.article {
+  display: flex;
+  align-items: center;
+  width: 33.3%;
+  padding-block: 30px;
+  align-items: flex-start;
+}
+.article span {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #0000002c;
+  padding-right: 15px;
+}
+.article img {
+  border-radius: 1000rem;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  float: inline-start;
+}
+.articleDescription {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.riga1 {
+  padding-top: 9px;
+  font-weight: normal;
+}
+.riga2 {
+  font-weight: bolder;
+}
+.data {
+  color: #00000060;
+}
