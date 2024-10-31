@@ -95,3 +95,14 @@ h1 {
   height: auto;
 }
  */
+section {
+  padding-inline: 90px;
+  border-top: 1.5px solid rgb(22, 22, 22);
+}
+.trending {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  font-weight: bold;
+  gap: 10px;
+}
