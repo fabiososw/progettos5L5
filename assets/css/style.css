@@ -96,6 +96,8 @@ h1 {
 }
  */
 section {
+  border-top: 1px solid rgb(22, 22, 22);
+
   padding-inline: 90px;
 }
 .trending {
