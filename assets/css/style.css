@@ -1,3 +1,6 @@
+/* style.css */
+
+/* Font and General Styles */
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -40,6 +43,7 @@ header li {
   border-radius: 1.5rem;
 }
 
+/* Hero Section */
 main.hero {
   position: relative;
   display: flex;
@@ -81,34 +85,19 @@ h1 {
   margin-top: 25px;
 }
 
-.mS {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: fit-content;
-  background-color: #ffc018;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* .mS img {
-  max-width: 100%;
-  height: auto;
-}
- */
+/* Section Articles */
 section.articles1 {
   border-top: 1px solid rgb(22, 22, 22);
-
   padding-inline: 90px;
 }
+
 .trending {
   align-items: center;
   padding-top: 50px;
   font-weight: bold;
   gap: 10px;
 }
+
 .trendingText {
   display: flex;
   align-items: center;
@@ -119,6 +108,7 @@ section.articles1 {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .article {
   display: flex;
   align-items: center;
@@ -126,6 +116,7 @@ section.articles1 {
   padding-block: 30px;
   align-items: flex-start;
 }
+
 .article span {
   font-size: 4rem;
   font-weight: bold;
@@ -133,6 +124,7 @@ section.articles1 {
   cursor: pointer;
   padding-right: 15px;
 }
+
 .article img {
   border-radius: 1000rem;
   width: 30px;
@@ -140,6 +132,7 @@ section.articles1 {
   margin-right: 10px;
   float: inline-start;
 }
+
 .articleDescription {
   height: 100px;
   display: flex;
@@ -147,6 +140,7 @@ section.articles1 {
   justify-content: space-between;
   cursor: pointer;
 }
+
 .riga1 {
   padding-top: 9px;
   font-weight: normal;
@@ -154,6 +148,7 @@ section.articles1 {
   display: inline-block;
   font-weight: 500;
 }
+
 .riga2 {
   font-weight: bolder;
   line-height: 20px;
@@ -164,14 +159,99 @@ section.articles1 {
   display: inline-flex;
   align-items: center;
 }
+
 .data.in {
   margin-inline: 3px;
 }
+
 img.star {
   width: 20px;
   height: 20px;
   margin-inline: 4px;
 }
+
 section.articles1 {
   border-bottom: 0.5px solid #00000039;
+}
+
+/* articles2.css */
+
+/* Articles Container */
+.articlesContainer {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.testoArticolo {
+  width: 65%; /* Occupa circa il 70% */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.immagineArticolo {
+  width: 30%;
+  flex-shrink: 0;
+}
+
+.immagineArticolo img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  object-fit: cover;
+  padding-block: 28px;
+}
+
+img.article2 {
+  width: 18px;
+  height: 18px;
+  align-self: flex-start;
+  border-radius: 50%;
+}
+
+.riga2.article2 {
+  font-size: 1.6rem;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.riga3 {
+  color: gray;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+button.specialButton {
+  display: inline-block;
+  color: rgba(134, 134, 134, 0.837);
+  background-color: rgb(237, 237, 237);
+  padding-inline: 7px;
+  margin-inline-start: 7px;
+  border: none;
+  border-radius: 10rem;
+  padding-block: 3px;
+}
+
+h4 {
+  font-size: 0.8rem;
+  align-self: center;
+  padding-block: 10px;
+}
+
+.data.article2 {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.bookmark {
+  position: absolute;
+  right: 0;
 }
