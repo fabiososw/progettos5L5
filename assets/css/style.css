@@ -289,9 +289,15 @@ button {
   align-content: flex-start;
   gap: 15px;
   flex-wrap: wrap;
+  align-items: center;
 }
 .containerDiscover button {
+  font-size: 1.2rem;
   border: 1px solid grey;
   background-color: transparent;
   color: #808080;
+  font-family: inherit;
+  border-radius: 3px;
+  padding-inline: 19px;
+  padding-block: 7px;
 }
