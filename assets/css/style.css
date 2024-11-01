@@ -62,12 +62,15 @@ h1 {
   font-family: "Spectral", serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 7rem;
+  font-size: 10rem;
   padding-top: 60px;
+  letter-spacing: -9px;
+  word-spacing: 8px;
+  width: 120%;
 }
 
 .heroText h2 {
-  font-size: 2.3rem;
+  font-size: 2.2rem;
 }
 
 .heroText button {
@@ -147,10 +150,18 @@ section {
 .riga1 {
   padding-top: 9px;
   font-weight: normal;
+  text-wrap: nowrap;
+  display: inline-block;
+  font-weight: 500;
 }
 .riga2 {
   font-weight: bolder;
+  line-height: 18px;
 }
 .data {
   color: #00000060;
+  display: inline-block;
+}
+.data.in {
+  margin-inline: 3px;
 }
