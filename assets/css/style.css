@@ -34,9 +34,9 @@ header li {
 }
 
 .special {
-  color: rgb(239, 239, 239);
+  color: rgb(249, 234, 234);
   background-color: rgb(26, 26, 26);
-  padding: 10px 13px;
+  padding: 10px 15px;
   border-radius: 1.5rem;
 }
 
@@ -171,4 +171,7 @@ img.star {
   width: 20px;
   height: 20px;
   margin-inline: 4px;
+}
+section.articles1 {
+  border-bottom: 0.5px solid #00000039;
 }
