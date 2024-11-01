@@ -229,6 +229,7 @@ img.article2 {
   color: gray;
   display: inline-block;
   padding-bottom: 10px;
+  line-height: 20px;
 }
 
 button.specialButton {
