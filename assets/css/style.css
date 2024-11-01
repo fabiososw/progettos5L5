@@ -245,7 +245,7 @@ button.specialButton {
 h4 {
   font-size: 0.8rem;
   align-self: center;
-  padding-block: 10px;
+  margin-bottom: 10px;
 }
 
 .data.article2 {
@@ -263,4 +263,7 @@ section.articles {
   flex-direction: column;
   padding-inline: 90px;
   padding-top: 30px;
+}
+button {
+  cursor: pointer;
 }
