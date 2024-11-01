@@ -156,12 +156,19 @@ section {
 }
 .riga2 {
   font-weight: bolder;
-  line-height: 18px;
+  line-height: 20px;
 }
+
 .data {
   color: #00000060;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
 }
 .data.in {
   margin-inline: 3px;
+}
+img.star {
+  width: 20px;
+  height: 20px;
+  margin-inline: 4px;
 }
