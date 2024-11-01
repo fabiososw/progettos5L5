@@ -98,7 +98,7 @@ h1 {
   height: auto;
 }
  */
-section {
+section.articles1 {
   border-top: 1px solid rgb(22, 22, 22);
 
   padding-inline: 90px;

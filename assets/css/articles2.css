@@ -1,0 +1,41 @@
+.articlesContainer {
+  width: 45%;
+  height: 300px;
+  display: flex;
+  border: 5px solid red;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.testoArticolo {
+  width: 49%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.immaginearticolo {
+  width: 49%;
+}
+img.article2 {
+  width: 30px;
+  height: 30px;
+  align-self: flex-start;
+}
+.riga2 {
+  font-size: 1.6rem;
+  display: inline-block;
+}
+.riga3 {
+  color: gray;
+  display: inline-block;
+}
+button {
+  display: inline-block;
+  color: rgba(134, 134, 134, 0.837);
+  background-color: rgb(237, 237, 237);
+  padding-inline: 7px;
+  border: none;
+  border-radius: 10rem;
+  padding-block: 3px;
+}
