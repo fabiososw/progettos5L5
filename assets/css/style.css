@@ -266,17 +266,32 @@ section.articles {
   flex-direction: column;
   padding-inline: 90px;
   padding-top: 30px;
-  width: 50%;
 }
 button {
   cursor: pointer;
 }
 .container {
   display: flex;
+  margin-inline-end: 90px;
 }
 .side {
+  width: 30%;
   flex-direction: column;
   display: flex;
   width: 30;
   height: 300px;
+}
+.discover {
+  font-weight: bold;
+}
+.containerDiscover {
+  display: flex;
+  align-content: flex-start;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.containerDiscover button {
+  border: 1px solid grey;
+  background-color: transparent;
+  color: #808080;
 }
