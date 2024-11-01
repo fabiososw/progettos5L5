@@ -105,6 +105,7 @@ section.articles1 {
 }
 
 .articles {
+  width: 70%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -270,12 +271,12 @@ section.articles {
 button {
   cursor: pointer;
 }
-.container * {
+.container {
   display: flex;
-  justify-content: flex-start;
-  padding: 0 90px;
-  position: relative;
 }
 .side {
-  width: 30%;
+  flex-direction: column;
+  display: flex;
+  width: 30;
+  height: 300px;
 }
