@@ -5,6 +5,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  height: 100vh;
 }
 
 header {
@@ -181,7 +182,7 @@ section.articles1 {
 
 /* Articles Container */
 .articlesContainer {
-  width: 40%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -190,7 +191,7 @@ section.articles1 {
 }
 
 .testoArticolo {
-  width: 65%; /* Occupa circa il 70% */
+  width: 65%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -264,7 +265,17 @@ section.articles {
   flex-direction: column;
   padding-inline: 90px;
   padding-top: 30px;
+  width: 50%;
 }
 button {
   cursor: pointer;
+}
+.container * {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 90px;
+  position: relative;
+}
+.side {
+  width: 30%;
 }
