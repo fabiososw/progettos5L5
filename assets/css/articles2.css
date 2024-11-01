@@ -1,7 +1,6 @@
 .articlesContainer {
   width: 40%;
   display: flex;
-  border: 5px solid red;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
@@ -15,6 +14,7 @@
   align-items: flex-start;
   flex-direction: column;
   flex-shrink: 0;
+  position: relative;
 }
 
 .immagineArticolo {
@@ -27,6 +27,7 @@
   max-width: 250px;
   height: auto;
   object-fit: cover;
+  padding-block: 28px;
 }
 
 img.article2 {
@@ -66,4 +67,10 @@ h4 {
 }
 .data {
   font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+.bookmark {
+  position: absolute;
+  right: 0;
 }
