@@ -283,6 +283,8 @@ button {
 }
 .discover {
   font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 50px;
 }
 .containerDiscover {
   display: flex;
@@ -290,14 +292,35 @@ button {
   gap: 15px;
   flex-wrap: wrap;
   align-items: center;
+  padding-bottom: 45px;
+  border-bottom: 0.7px solid rgba(128, 128, 128, 0.604);
 }
 .containerDiscover button {
   font-size: 1.2rem;
-  border: 1px solid grey;
+  border: 1px solid #808080;
   background-color: transparent;
   color: #808080;
   font-family: inherit;
-  border-radius: 3px;
+  border-radius: 5px;
   padding-inline: 19px;
+  padding-block: 10px;
+}
+.help {
+  padding-top: 30px;
+  display: flex;
+  align-content: flex-start;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 45px;
+}
+.help button {
+  font-weight: 400;
+  font-size: 1.2rem;
+  border: none;
+  line-height: 5px;
+  background-color: transparent;
+  color: #808080;
+  font-family: inherit;
   padding-block: 7px;
 }
